@@ -1,5 +1,6 @@
 ##Getting and Cleanind Data Project
 Additional information about the variables and data
+
 Data Source:https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 #Data Set Information
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
@@ -12,10 +13,10 @@ Activity names and IDs are taken form activity_labels.txt abd they are substitut
 
 ##Tidy Data Set
 An independent tidy data set, Tidy.txt, is created and contains the average of each variable for each activty and each subject.
-#Identifiers
+##Identifiers
 subject : The ID of the test subject
 activity : The type of activity performed when the corresponding measurements were taken
-#Activity Labels
+##Activity Labels
 WALKING 
 WALKING_UPSTAIRS 
 WALKING_DOWNSTAIRS 
@@ -23,7 +24,7 @@ SITTING
 STANDING 
 LAYING
 
-#Variable Units
+##Variable Units
 Activity variable is factor type
 Subject variable is integer type
 All other variables are numeric type 
