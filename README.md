@@ -1,5 +1,5 @@
 # Getting-and-Cleaning-Data-Project
-This is the course project for the Getting and Cleaning Data course. The R script, 'run_analysis.R' , does the following:
+This is the course project for the Getting and Cleaning Data course. The R script, run_analysis.R , does the following:
 
 1.Merges the training and the test sets to create one data set.
 
